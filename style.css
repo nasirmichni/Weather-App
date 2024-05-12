@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-id {
+    position: relative;
+    width: 90%; /* Adjusted width for responsiveness */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */ /* Remove the border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a box shadow */
+}
+
+
+.meera-inimai-regular {
+    font-family: "Meera Inimai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+      
+.content {
+    z-index: 1; 
+}
+
+h2 {
+    color: #1670e7; 
+}
+
+.temp {
+    color: #fa0808; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.card {
+    width: 45%; 
+    height: 130px; 
+    margin-bottom: 10px; 
+    margin-right: 2.5%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    font-size: 18px; 
+    color: rgb(12, 12, 12); 
+}
+
+
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 467px) {
+    #main-id {
+        width: 100%; /* Adjusted width for smaller screens */
+    }
+    
+    .card {
+        width: 50%; /* Full width for cards on smaller screens */
+        margin-right: 0; /* No margin for cards on smaller screens */
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Weather App</title>
+    <link rel="icon" type="image/png" href="images/title.png">
+</head>
+<body>
+    <div id="main-id">
+        <div class="background-image"></div>
+        <div class="content">
+            <h2>Peshawar Now</h2>
+            <h1 class="temp">Temperature</h1>
+            <img src="images/temperatures.png" alt="temperature_icon" width="30px">
+        
+            <div class="container">
+                <div class="card">
+                    <img src="images/high-temperature.png" alt="high-temperature-icon" width="30px"></i><p class="feels-like">Feels Like </p>
+                </div>
+                <div class="card">
+                    <img src="images/humidity.png" alt="humidity-icon" width="30px"><p class="humadity">Humidity </p>
+                </div>
+                <div class="card">
+                    <img src="images/cloud.png" alt="cloud-icon" width="30px"><p class="clouds">Clouds </p>
+                </div>
+                <div class="card">
+                    <img src="images/wind.png" alt="wind-icon" width="30px"><p class="wind-speed">Wind Speed </p>
+                </div>
+                <div class="card">
+                    <img src="images/sunrise.png" alt="sunrise-icon" width="30px"></i> <p class="sunrise">Sunrise </p>
+                </div>
+                <div class="card">
+                    <img src="images/sunset.png" alt="sunset-icon" width="30px"></i><p class="sunset">Sunset </p>
+                </div>
+            </div>
+
+    <div class="footer-section">
+        <p id="footer-text" class="footer">Nasir Weather App &copy;<span id="current-year"></span> All Rights Reserved</p>
+   </div>
+    </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+    
+</body>
+</html>
